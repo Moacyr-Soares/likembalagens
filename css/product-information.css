@@ -1,0 +1,152 @@
+.product-information-left {
+
+    padding-right: 200px;
+}
+
+.product-information-left img {
+
+    width: 420px;
+}
+
+.product-information-right {
+    padding: 20px 20px 0px 20px;
+}
+
+.product-information-right h4 {
+    color: #37373d;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.product-information-right h3 {
+    padding-top: 10px;
+    color: #0CAF1D;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.description-row p {
+    color: #37373d;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.category-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.category {
+    margin-right: 20px;
+    border-radius: 20px 20px 0 0;
+    background-color: #d9d9d9;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700px;
+    color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.assessment{
+    display: flex;
+    font-size: 30px;
+}
+
+.star-icon{
+    list-style: none;
+    cursor: pointer;
+    color: #ffe500;
+}
+
+.star-icon::before{
+
+    content: "\2605";
+}
+
+.star-icon.active ~ .star-icon::before{
+
+    content: "\2606";
+}
+
+.assessment:hover .star-icon::before{
+
+    content:"\2605";
+}   
+
+
+.star-icon:hover ~ .star-icon::before{
+
+    content: "\2606";
+}
+
+#code{
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#product-code {
+
+    display: flex;
+}
+
+.stars{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.stars p {
+
+    margin-left: 5px;
+} 
+
+.btn {
+    border-radius: 7px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.btn-page-container {
+ 
+    width: 240px;
+    display: grid;
+    grid-gap: 3px;
+}
+
+.btn-green {
+
+    background-color: #0CAF1D;
+    color: #ffffff;
+}
+
+.btn-white {
+    background-color: #ffffff;
+    color: #0CAF1D;
+    border: 1px solid #0CAF1D;
+}
+
+.product-info{
+
+    display: flex;
+    padding: 20px;
+}
+
+.product-info a {
+
+    text-decoration: underline;
+    margin-left: 5px;
+ 
+}
